@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-core
+pypdf
+transformers
+sentence-transformers
+accelerate
+faiss-cpu
+streamlit
+langchain-fireworks
+einops
+mcp[cli]
+torch
+langchain_huggingface
+nest_asyncio
+langchain_ollama
