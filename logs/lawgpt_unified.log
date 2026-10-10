@@ -1,0 +1,25 @@
+2025-12-06 01:45:29,489 - UnifiedApp - INFO - User Query (📚 Local Database (PPC)): punishment for theft
+2025-12-06 01:45:29,496 - UnifiedApp - INFO - Loading local resources (Embeddings, DB, LLM)...
+2025-12-06 01:45:42,057 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 01:45:42,058 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 01:45:42,840 - UnifiedApp - INFO - User Query (🌐 Web Search (Perplexity)): punishment for theft
+2025-12-06 01:45:42,847 - UnifiedApp - INFO - Initiating Perplexity MCP connection for: punishment for theft
+2025-12-06 01:45:47,443 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 01:45:48,900 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 01:45:49,103 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 01:45:50,406 - UnifiedApp - INFO - Local resources loaded successfully.
+2025-12-06 01:45:50,407 - UnifiedApp - INFO - Running Local RAG for: punishment for theft
+2025-12-06 01:45:50,410 - UnifiedApp - INFO - Retrieving local context for: punishment for theft
+2025-12-06 01:45:51,320 - UnifiedApp - INFO - Calling MCP tool: perplexity_ask
+2025-12-06 01:46:00,017 - UnifiedApp - INFO - Received response from Perplexity.
+2025-12-06 01:46:29,402 - UnifiedApp - INFO - User Query (🌐 Web Search (Perplexity)): punishment for theft according to pakistan penal code
+2025-12-06 01:46:29,412 - UnifiedApp - INFO - Initiating Perplexity MCP connection for: punishment for theft according to pakistan penal code
+2025-12-06 01:46:36,770 - UnifiedApp - INFO - Calling MCP tool: perplexity_ask
+2025-12-06 01:46:43,724 - UnifiedApp - INFO - Received response from Perplexity.
+2025-12-06 01:51:02,723 - UnifiedApp - INFO - User Query (📚 Local Database (PPC)): if a person attack me and while defending suddenly i pressed the trigger which cause the death of other person. which law is for this.
+2025-12-06 01:51:03,065 - UnifiedApp - INFO - Running Local RAG for: if a person attack me and while defending suddenly i pressed the trigger which cause the death of other person. which law is for this.
+2025-12-06 01:51:03,075 - UnifiedApp - INFO - Retrieving local context for: if a person attack me and while defending suddenly i pressed the trigger which cause the death of other person. which law is for this.
+2025-12-06 01:51:07,169 - UnifiedApp - INFO - User Query (🌐 Web Search (Perplexity)): if a person attack me and while defending suddenly i pressed the trigger which cause the death of other person. which law is for this.
+2025-12-06 01:51:07,229 - UnifiedApp - INFO - Initiating Perplexity MCP connection for: if a person attack me and while defending suddenly i pressed the trigger which cause the death of other person. which law is for this.
+2025-12-06 01:51:16,503 - UnifiedApp - INFO - Calling MCP tool: perplexity_ask
+2025-12-06 01:51:29,946 - UnifiedApp - INFO - Received response from Perplexity.

@@ -1,0 +1,316 @@
+2025-12-06 16:04:15,427 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): punishment for illegal weapons
+2025-12-06 16:04:15,434 - LawBotApp - INFO - Loading local resources...
+2025-12-06 16:04:26,085 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 16:04:26,085 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 16:04:32,098 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 16:04:35,105 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 16:04:35,280 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 16:09:08,754 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): use of illegal weapons
+2025-12-06 16:09:08,761 - LawBotApp - INFO - Loading local resources...
+2025-12-06 16:09:22,141 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 16:09:22,142 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 16:09:27,209 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 16:09:31,958 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 16:09:32,154 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 16:09:33,580 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-06 16:09:33,581 - LawBotApp - INFO - Running Local RAG for: use of illegal weapons
+2025-12-06 16:09:33,588 - LawBotApp - INFO - Retrieving local context for: use of illegal weapons
+2025-12-06 16:10:36,790 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): law for qatl
+2025-12-06 16:10:36,794 - LawBotApp - INFO - Running Local RAG for: law for qatl
+2025-12-06 16:10:36,799 - LawBotApp - INFO - Retrieving local context for: law for qatl
+2025-12-06 16:12:01,386 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): theft law
+2025-12-06 16:12:01,396 - LawBotApp - INFO - Running Local RAG for: theft law
+2025-12-06 16:12:01,402 - LawBotApp - INFO - Retrieving local context for: theft law
+2025-12-06 16:14:56,074 - LawBotApp - INFO - Chat cleared by user.
+2025-12-06 16:15:08,210 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): tell me punishment for theft or robbery
+2025-12-06 16:15:08,220 - LawBotApp - INFO - Running Local RAG for: tell me punishment for theft or robbery
+2025-12-06 16:15:08,224 - LawBotApp - INFO - Retrieving local context for: tell me punishment for theft or robbery
+2025-12-06 17:10:00,060 - LawBotApp - INFO - Loading local resources...
+2025-12-06 17:10:37,187 - LawBotApp - INFO - Loading local resources...
+2025-12-06 17:10:45,903 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 17:10:45,904 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 17:10:52,888 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 17:10:54,181 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 17:10:54,476 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 17:10:56,479 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-06 17:10:56,479 - LawBotApp - INFO - Running Local RAG for: What is Section 302 of PPC?
+2025-12-06 17:10:56,487 - LawBotApp - INFO - Retrieving local context for: What is Section 302 of PPC?
+2025-12-06 17:17:14,201 - LawBotApp - INFO - Loading local resources...
+2025-12-06 17:17:30,343 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 17:17:30,344 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 17:17:36,986 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 17:17:38,574 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 17:17:38,861 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 17:17:44,421 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-06 17:17:44,421 - LawBotApp - INFO - Running Local RAG for: What is Section 302 of PPC?
+2025-12-06 17:17:44,424 - LawBotApp - INFO - Retrieving local context for: What is Section 302 of PPC?
+2025-12-06 17:18:51,282 - LawBotApp - INFO - Loading local resources...
+2025-12-06 17:19:01,857 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 17:19:01,858 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 17:19:07,112 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 17:19:08,844 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 17:19:08,908 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 17:19:10,407 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-06 17:19:10,407 - LawBotApp - INFO - Running Local RAG for: What is Section 302 of PPC?
+2025-12-06 17:19:10,409 - LawBotApp - INFO - Retrieving local context for: What is Section 302 of PPC?
+2025-12-06 18:23:05,870 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): tell me about section 302
+2025-12-06 18:23:05,881 - LawBotApp - INFO - Loading local resources...
+2025-12-06 18:23:16,579 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 18:23:16,580 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 18:23:21,989 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 18:23:23,880 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 18:23:24,102 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 18:23:25,602 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-06 18:23:25,604 - LawBotApp - INFO - Running Local RAG for: tell me about section 302
+2025-12-06 18:23:25,609 - LawBotApp - INFO - Retrieving local context for: tell me about section 302
+2025-12-06 18:25:32,861 - LawBotApp - INFO - User Query (🌐 Web Search (Perplexity)): tell me section 302
+2025-12-06 18:25:32,875 - LawBotApp - INFO - Initiating Perplexity MCP connection for: tell me section 302
+2025-12-06 18:25:39,314 - LawBotApp - INFO - Calling MCP tool: perplexity_ask
+2025-12-06 18:25:50,413 - LawBotApp - INFO - Received response from Perplexity.
+2025-12-06 20:20:31,055 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:20:31,097 - LawBotApp - INFO - Loading local resources...
+2025-12-06 20:20:46,970 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 20:20:46,973 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 20:20:52,955 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 20:20:55,997 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 20:20:56,667 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 20:20:58,909 - LawBotApp - INFO - User Query (🌐 Web Search (Perplexity)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:20:58,916 - LawBotApp - INFO - Initiating Perplexity MCP connection for: in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:20:59,069 - LawBotApp - ERROR - Error loading local resources: The paging file is too small for this operation to complete. (os error 1455)
+2025-12-06 20:21:14,294 - LawBotApp - INFO - Calling MCP tool: perplexity_ask
+2025-12-06 20:21:26,996 - LawBotApp - INFO - User Query (🌐 Web Search (Perplexity)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:21:27,011 - LawBotApp - INFO - Initiating Perplexity MCP connection for: in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:21:30,554 - LawBotApp - INFO - Calling MCP tool: perplexity_ask
+2025-12-06 20:21:41,898 - LawBotApp - INFO - Received response from Perplexity.
+2025-12-06 20:21:43,850 - LawBotApp - INFO - Received response from Perplexity.
+2025-12-06 20:21:56,139 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:21:56,148 - LawBotApp - INFO - Loading local resources...
+2025-12-06 20:21:56,171 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 20:21:56,172 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 20:22:05,028 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 20:23:16,790 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:23:16,797 - LawBotApp - INFO - Loading local resources...
+2025-12-06 20:23:25,022 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 20:23:25,022 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 20:23:30,275 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 20:23:32,833 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 20:23:33,045 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 20:23:33,976 - LawBotApp - ERROR - Error loading local resources: The paging file is too small for this operation to complete. (os error 1455)
+2025-12-06 20:30:25,347 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:30:25,355 - LawBotApp - INFO - Loading local resources...
+2025-12-06 20:30:25,391 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 20:30:25,393 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 20:30:33,484 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 20:31:32,977 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:31:32,986 - LawBotApp - INFO - Loading local resources...
+2025-12-06 20:31:46,466 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 20:31:46,467 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 20:31:53,645 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 20:31:54,837 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 20:31:54,912 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 20:31:56,496 - LawBotApp - ERROR - Error loading local resources: The paging file is too small for this operation to complete. (os error 1455)
+2025-12-06 20:32:12,968 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:32:12,976 - LawBotApp - INFO - Running Local RAG for: in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:39:06,221 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:39:06,230 - LawBotApp - INFO - Loading local resources...
+2025-12-06 20:39:06,352 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 20:39:06,366 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 20:42:28,505 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 20:42:28,512 - LawBotApp - INFO - Loading local resources...
+2025-12-06 20:42:40,487 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-06 20:42:40,487 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-06 20:42:46,455 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-06 20:42:53,811 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-06 20:42:53,853 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-06 20:42:54,682 - LawBotApp - ERROR - Error loading local resources: The paging file is too small for this operation to complete. (os error 1455)
+2025-12-06 21:03:09,631 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 21:03:09,644 - LawBotApp - INFO - Running Local RAG for: in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 21:03:14,667 - LawBotApp - INFO - Chat cleared by user.
+2025-12-06 21:03:18,953 - LawBotApp - INFO - User Query (🌐 Web Search (Perplexity)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 21:03:18,962 - LawBotApp - INFO - Initiating Perplexity MCP connection for: in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 21:03:26,812 - LawBotApp - INFO - Calling MCP tool: perplexity_ask
+2025-12-06 21:03:46,848 - LawBotApp - INFO - Received response from Perplexity.
+2025-12-06 21:26:35,804 - LawBotApp - INFO - Chat cleared by user.
+2025-12-06 21:57:31,425 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 21:57:31,469 - LawBotApp - INFO - Running Local RAG for: in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 21:59:33,637 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 21:59:33,653 - LawBotApp - INFO - Running Local RAG for: in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 21:59:49,725 - LawBotApp - INFO - Chat cleared by user.
+2025-12-06 21:59:53,897 - LawBotApp - INFO - User Query (🌐 Web Search (Perplexity)): in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 21:59:53,948 - LawBotApp - INFO - Initiating Perplexity MCP connection for: in a self defense, i mistakenly fired a bullet to a person. what is the law and punishment for this.
+2025-12-06 22:00:04,364 - LawBotApp - INFO - Calling MCP tool: perplexity_ask
+2025-12-06 22:00:27,699 - LawBotApp - INFO - Received response from Perplexity.
+2025-12-11 01:03:47,174 - LawBotApp - INFO - User Query (🌐 Web Search (Perplexity)): law regarding murder
+2025-12-11 01:03:47,186 - LawBotApp - INFO - Initiating Perplexity MCP connection for: law regarding murder
+2025-12-11 01:05:29,565 - LawBotApp - INFO - Calling MCP tool: perplexity_ask
+2025-12-11 01:05:39,259 - LawBotApp - INFO - Received response from Perplexity.
+2025-12-11 01:06:02,700 - LawBotApp - INFO - Chat cleared by user.
+2025-12-11 01:06:04,667 - LawBotApp - INFO - Chat cleared by user.
+2025-12-11 01:06:23,526 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): law regarding murder section 302
+2025-12-11 01:06:23,553 - LawBotApp - INFO - Running Local RAG for: law regarding murder section 302
+2025-12-11 01:08:05,899 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): law regarding murder
+2025-12-11 01:08:06,098 - LawBotApp - INFO - Running Local RAG for: law regarding murder
+2025-12-11 01:08:51,667 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is the law against murder
+2025-12-11 01:08:51,693 - LawBotApp - INFO - Loading local resources...
+2025-12-11 01:09:23,704 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-12-11 01:09:23,704 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-11 01:09:29,377 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-11 01:09:30,916 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-11 01:09:32,059 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-11 01:09:33,722 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-11 01:09:33,723 - LawBotApp - INFO - Running Local RAG for: what is the law against murder
+2025-12-11 01:09:33,732 - LawBotApp - INFO - Retrieving local context for: what is the law against murder
+2025-12-11 01:24:11,381 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is the law against murder. section 302
+2025-12-11 01:24:11,404 - LawBotApp - INFO - Loading local resources...
+2025-12-11 01:24:21,150 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-11 01:24:25,359 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-11 01:24:29,048 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-11 01:24:29,321 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-11 01:24:30,789 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-11 01:24:34,231 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu.
+2025-12-11 01:24:34,253 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-11 01:24:34,255 - LawBotApp - INFO - Running Local RAG for: what is the law against murder. section 302
+2025-12-11 01:24:34,267 - LawBotApp - INFO - Retrieving local context for: what is the law against murder. section 302
+2025-12-11 01:37:11,979 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is the law for punishment of murder or qatl
+2025-12-11 01:37:11,994 - LawBotApp - INFO - Loading local resources...
+2025-12-11 01:37:39,934 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-11 01:37:44,045 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_embed_hyphen_text_hyphen_v1.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-11 01:37:47,427 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-11 01:37:47,716 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-11 01:37:49,154 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-11 01:37:52,004 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu.
+2025-12-11 01:37:52,012 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-11 01:37:52,013 - LawBotApp - INFO - Running Local RAG for: what is the law for punishment of murder or qatl
+2025-12-11 01:37:52,016 - LawBotApp - INFO - Retrieving local context for: what is the law for punishment of murder or qatl
+2025-12-11 02:06:23,643 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is the law for theft or robbery
+2025-12-11 02:06:23,655 - LawBotApp - INFO - Loading local resources...
+2025-12-11 02:06:36,349 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./nomic-embed
+2025-12-11 02:06:40,727 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_bert_hyphen_2048.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-11 02:06:43,006 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-11 02:06:43,118 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-11 02:06:44,031 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-11 02:06:46,964 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu.
+2025-12-11 02:06:46,979 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-11 02:06:46,979 - LawBotApp - INFO - Running Local RAG for: what is the law for theft or robbery
+2025-12-11 02:06:46,998 - LawBotApp - INFO - Retrieving local context for: what is the law for theft or robbery
+2025-12-11 03:26:10,737 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is the law against murder or qatl
+2025-12-11 03:26:10,744 - LawBotApp - INFO - Loading local resources...
+2025-12-11 03:26:25,200 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./nomic-embed
+2025-12-11 03:26:29,548 - transformers_modules.nomic_hyphen_ai.nomic_hyphen_bert_hyphen_2048.[fingerprint removed].modeling_hf_nomic_bert - WARNING - <All keys matched successfully>
+2025-12-11 03:26:31,682 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-11 03:26:31,738 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-11 03:26:32,911 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-12-11 03:26:35,681 - accelerate.big_modeling - WARNING - Some parameters are on the meta device because they were offloaded to the cpu.
+2025-12-11 03:26:35,693 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-11 03:26:35,693 - LawBotApp - INFO - Running Local RAG for: what is the law against murder or qatl
+2025-12-11 03:26:35,704 - LawBotApp - INFO - Retrieving local context for: what is the law against murder or qatl
+2025-12-11 03:35:46,583 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): tell me about theft law
+2025-12-11 03:35:46,601 - LawBotApp - INFO - Running Local RAG for: tell me about theft law
+2025-12-11 03:35:46,608 - LawBotApp - INFO - Retrieving local context for: tell me about theft law
+2025-12-12 04:03:26,782 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is law against theft
+2025-12-12 04:03:26,790 - LawBotApp - INFO - Loading local resources...
+2025-12-12 04:03:29,487 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-12 04:03:30,321 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-12 04:03:32,147 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-12 04:03:32,148 - LawBotApp - INFO - Running Local RAG for: what is law against theft
+2025-12-12 04:03:32,154 - LawBotApp - INFO - Retrieving local context for: what is law against theft
+2025-12-12 09:35:27,503 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is law against theft
+2025-12-12 09:35:27,508 - LawBotApp - INFO - Loading local resources...
+2025-12-12 09:35:28,839 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-12 09:35:29,026 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-12 09:35:30,309 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-12 09:35:30,309 - LawBotApp - INFO - Running Local RAG for: what is law against theft
+2025-12-12 09:35:30,314 - LawBotApp - INFO - Retrieving local context for: what is law against theft
+2025-12-12 09:35:30,333 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 404 Not Found"
+2025-12-12 10:46:11,781 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): law against theft
+2025-12-12 10:46:11,798 - LawBotApp - INFO - Loading local resources...
+2025-12-12 10:46:19,374 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-12 10:46:19,526 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-12 10:46:19,568 - LawBotApp - ERROR - Model not found at deepseek-r1:1.5b-qwen-distill-q8_0
+2025-12-12 10:47:10,426 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): law against theft
+2025-12-12 10:47:10,490 - LawBotApp - INFO - Loading local resources...
+2025-12-12 10:47:16,591 - LawBotApp - ERROR - Model not found at deepseek-r1:1.5b-qwen-distill-q8_0
+2025-12-12 10:48:59,949 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): law against theft
+2025-12-12 10:48:59,957 - LawBotApp - INFO - Loading local resources...
+2025-12-12 10:49:01,542 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-12 10:49:01,585 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-12 10:49:01,605 - LawBotApp - ERROR - Model not found at deepseek-r1:1.5b-qwen-distill-q8_0
+2025-12-12 10:52:24,706 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): law against theft
+2025-12-12 10:52:24,714 - LawBotApp - INFO - Loading local resources...
+2025-12-12 10:52:26,643 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-12 10:52:26,689 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-12 10:52:28,147 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-12 10:52:28,149 - LawBotApp - INFO - Running Local RAG for: law against theft
+2025-12-12 10:52:28,205 - LawBotApp - INFO - Retrieving local context for: law against theft
+2025-12-12 10:52:28,312 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 404 Not Found"
+2025-12-13 13:36:19,719 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is the against theft
+2025-12-13 13:36:19,725 - LawBotApp - INFO - Loading local resources...
+2025-12-13 13:36:20,984 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-13 13:36:21,990 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-13 13:36:22,050 - LawBotApp - ERROR - Model not found at deepseek-r1:1.5b-qwen-distill-q8_0
+2025-12-13 13:38:23,195 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is the law against theft
+2025-12-13 13:38:23,200 - LawBotApp - INFO - Loading local resources...
+2025-12-13 13:38:25,770 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-13 13:38:25,771 - LawBotApp - INFO - Running Local RAG for: what is the law against theft
+2025-12-13 13:38:25,777 - LawBotApp - INFO - Retrieving local context for: what is the law against theft
+2025-12-13 13:38:30,549 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-13 13:38:41,462 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-13 13:39:14,280 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is law against murder
+2025-12-13 13:39:14,286 - LawBotApp - INFO - Running Local RAG for: what is law against murder
+2025-12-13 13:39:14,288 - LawBotApp - INFO - Retrieving local context for: what is law against murder
+2025-12-13 13:39:14,433 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-13 13:39:16,782 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-13 14:01:40,925 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is section 302
+2025-12-13 14:01:40,931 - LawBotApp - INFO - Loading local resources...
+2025-12-13 14:01:42,099 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-13 14:01:42,701 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-13 14:01:43,794 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-13 14:01:43,794 - LawBotApp - INFO - Running Local RAG for: what is section 302
+2025-12-13 14:01:43,797 - LawBotApp - INFO - Retrieving local context for: what is section 302
+2025-12-13 14:01:48,831 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-13 14:01:55,364 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-13 14:02:48,730 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is section 320
+2025-12-13 14:02:48,742 - LawBotApp - INFO - Running Local RAG for: what is section 320
+2025-12-13 14:02:48,747 - LawBotApp - INFO - Retrieving local context for: what is section 320
+2025-12-13 14:02:48,928 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-13 14:02:51,389 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-13 14:03:23,515 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): law against murder
+2025-12-13 14:03:23,522 - LawBotApp - INFO - Running Local RAG for: law against murder
+2025-12-13 14:03:23,529 - LawBotApp - INFO - Retrieving local context for: law against murder
+2025-12-13 14:03:23,712 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-13 14:03:27,000 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-13 14:03:43,823 - LawBotApp - INFO - Chat cleared by user.
+2025-12-13 14:03:50,715 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is law for qatl
+2025-12-13 14:03:50,722 - LawBotApp - INFO - Running Local RAG for: what is law for qatl
+2025-12-13 14:03:50,727 - LawBotApp - INFO - Retrieving local context for: what is law for qatl
+2025-12-13 14:03:50,898 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-13 14:03:52,725 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-13 14:30:20,344 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is law against theft
+2025-12-13 14:30:20,357 - LawBotApp - INFO - Loading local resources...
+2025-12-13 14:30:23,126 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-12-13 14:30:23,350 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-13 14:30:26,193 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-13 14:30:26,195 - LawBotApp - INFO - Running Local RAG for: what is law against theft
+2025-12-13 14:30:26,201 - LawBotApp - INFO - Retrieving local context for: what is law against theft
+2025-12-13 14:30:29,229 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-13 14:30:35,675 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-13 14:35:47,916 - LawBotApp - INFO - Chat cleared by user.
+2025-12-13 14:36:03,011 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is the law aginst theft
+2025-12-13 14:36:03,038 - LawBotApp - INFO - Loading local resources...
+2025-12-13 14:36:09,321 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-13 14:36:09,323 - LawBotApp - INFO - Running Local RAG for: what is the law aginst theft
+2025-12-13 14:36:09,329 - LawBotApp - INFO - Retrieving local context for: what is the law aginst theft
+2025-12-13 14:36:13,163 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-13 14:36:21,155 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-13 14:38:35,087 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): explain section 320
+2025-12-13 14:38:35,095 - LawBotApp - INFO - Running Local RAG for: explain section 320
+2025-12-13 14:38:35,099 - LawBotApp - INFO - Retrieving local context for: explain section 320
+2025-12-13 14:38:35,267 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-13 14:38:37,286 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-12-13 14:39:39,634 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): what is law for murder
+2025-12-13 14:39:39,642 - LawBotApp - INFO - Loading local resources...
+2025-12-13 14:39:45,584 - LawBotApp - INFO - Local resources loaded successfully.
+2025-12-13 14:39:45,585 - LawBotApp - INFO - Running Local RAG for: what is law for murder
+2025-12-13 14:39:45,589 - LawBotApp - INFO - Retrieving local context for: what is law for murder
+2025-12-13 14:39:45,702 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-12-13 14:39:47,882 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"

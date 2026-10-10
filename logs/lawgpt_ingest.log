@@ -1,0 +1,239 @@
+2025-12-05 20:52:52,572 - INFO - --- Starting Ingestion Process ---
+2025-12-05 20:52:52,574 - INFO - Scanning 'data' for PDF files...
+2025-12-05 20:53:26,394 - INFO - Loaded 150 document pages.
+2025-12-05 20:53:26,394 - INFO - Splitting text into chunks...
+2025-12-05 20:53:26,433 - INFO - Created 605 text chunks.
+2025-12-05 20:53:26,495 - INFO - Loading embedding model: nomic-ai/nomic-embed-text-v1...
+2025-12-05 20:53:26,541 - INFO - Use pytorch device_name: cpu
+2025-12-05 20:53:26,542 - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-05 20:53:37,026 - WARNING - <All keys matched successfully>
+2025-12-05 20:53:39,865 - INFO - Creating FAISS index at 'ppc_vector_db_new'...
+2025-12-05 20:58:56,877 - INFO - Loading faiss with AVX2 support.
+2025-12-05 20:58:57,063 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-05 23:49:51,935 - INFO - --- Starting Ingestion Process ---
+2025-12-05 23:49:51,936 - INFO - Scanning 'data' for PDF files...
+2025-12-05 23:49:55,858 - INFO - Loaded 164 document pages.
+2025-12-05 23:49:55,859 - INFO - Splitting text into chunks...
+2025-12-05 23:49:55,909 - INFO - Created 546 text chunks.
+2025-12-05 23:49:55,911 - INFO - Loading embedding model: nomic-ai/nomic-embed-text-v1...
+2025-12-05 23:49:55,920 - INFO - Use pytorch device_name: cpu
+2025-12-05 23:49:55,920 - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1
+2025-12-05 23:50:01,531 - WARNING - <All keys matched successfully>
+2025-12-05 23:50:02,860 - INFO - Creating FAISS index at 'ppc_vector_db_final'...
+2025-12-05 23:53:27,336 - INFO - Loading faiss with AVX2 support.
+2025-12-05 23:53:27,880 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-05 23:53:27,941 - INFO - Ingestion complete. Vector database saved successfully.
+2025-12-11 02:56:04,026 - INFO - --- Starting PPC Section-based Ingestion Process ---
+2025-12-11 02:56:04,028 - INFO - Found 1 PDF file(s): ['Pakistan Penal Code New.pdf']
+2025-12-11 02:56:04,029 - INFO - Loading PDF: data\Pakistan Penal Code New.pdf
+2025-12-11 02:56:18,918 - INFO - Extracted 517 sections from data\Pakistan Penal Code New.pdf
+2025-12-11 02:56:18,919 - INFO - Total sections extracted: 517
+2025-12-11 02:56:18,920 - INFO - === Sample Sections ===
+2025-12-11 02:56:18,920 - INFO - 
+Section 1:
+2025-12-11 02:56:18,920 - INFO - Metadata: {'section_number': 186, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 02:56:18,921 - INFO - Content (first 200 chars): Section 186
+0) 
+Act XLV of 1860 
+October 6th, 1860 
+ 
+Amended by: Protection of Women (Criminal Laws Amendment) Act, 2006,Criminal Laws 
+(Amendment) Act, 2004 (I of 2005),Criminal Law (Amendment) Ordi...
+2025-12-11 02:56:18,921 - INFO - 
+Section 2:
+2025-12-11 02:56:18,921 - INFO - Metadata: {'section_number': 1, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 02:56:18,922 - INFO - Content (first 200 chars): Section 1
+Title and extent of operation of the Code. 
+This Act shall be called the Pakistan Penal Code, and shall take effect throughout Pakistan....
+2025-12-11 02:56:18,922 - INFO - 
+Section 3:
+2025-12-11 02:56:18,922 - INFO - Metadata: {'section_number': 2, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 02:56:18,923 - INFO - Content (first 200 chars): Section 2
+Punishment of offences committed within Pakistan. 
+Every person shall be liable to punishment under this Code and not otherwise for every act or 
+omission contrary to the provisions thereof,...
+2025-12-11 02:56:18,923 - INFO - Loading embedding model: ./nomic-embed...
+2025-12-11 02:56:20,594 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 02:56:20,594 - INFO - Load pretrained SentenceTransformer: ./nomic-embed
+2025-12-11 02:56:26,881 - WARNING - <All keys matched successfully>
+2025-12-11 02:56:28,549 - INFO - Creating FAISS index at 'ppc_vector_db_final' with 517 sections...
+2025-12-11 02:57:50,444 - ERROR - Failed to create/save vector store: CUDA out of memory. Tried to allocate 1.70 GiB. GPU 0 has a total capacity of 4.00 GiB of which 0 bytes is free. Of the allocated memory 7.32 GiB is allocated by PyTorch, and 3.01 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-12-11 03:01:23,591 - INFO - --- Starting PPC Section-based Ingestion Process ---
+2025-12-11 03:01:23,593 - INFO - Found 1 PDF file(s): ['Pakistan Penal Code New.pdf']
+2025-12-11 03:01:23,593 - INFO - Loading PDF: data\Pakistan Penal Code New.pdf
+2025-12-11 03:01:51,740 - INFO - Extracted 517 sections from data\Pakistan Penal Code New.pdf
+2025-12-11 03:01:51,741 - INFO - Total sections extracted: 517
+2025-12-11 03:01:51,742 - INFO - === Sample Sections ===
+2025-12-11 03:01:51,743 - INFO - 
+Section 1:
+2025-12-11 03:01:51,744 - INFO - Metadata: {'section_number': 186, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 03:01:51,745 - INFO - Content (first 200 chars): Section 186
+0) 
+Act XLV of 1860 
+October 6th, 1860 
+ 
+Amended by: Protection of Women (Criminal Laws Amendment) Act, 2006,Criminal Laws 
+(Amendment) Act, 2004 (I of 2005),Criminal Law (Amendment) Ordi...
+2025-12-11 03:01:51,745 - INFO - 
+Section 2:
+2025-12-11 03:01:51,746 - INFO - Metadata: {'section_number': 1, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 03:01:51,746 - INFO - Content (first 200 chars): Section 1
+Title and extent of operation of the Code. 
+This Act shall be called the Pakistan Penal Code, and shall take effect throughout Pakistan....
+2025-12-11 03:01:51,748 - INFO - 
+Section 3:
+2025-12-11 03:01:51,749 - INFO - Metadata: {'section_number': 2, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 03:01:51,749 - INFO - Content (first 200 chars): Section 2
+Punishment of offences committed within Pakistan. 
+Every person shall be liable to punishment under this Code and not otherwise for every act or 
+omission contrary to the provisions thereof,...
+2025-12-11 03:01:51,751 - INFO - Loading embedding model: ./nomic-embed...
+2025-12-11 03:01:51,753 - ERROR - Failed to load embedding model: 1 validation error for HuggingFaceEmbeddings
+device
+  Extra inputs are not permitted [type=extra_forbidden, input_value='auto', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden
+2025-12-11 03:04:53,491 - INFO - --- Starting PPC Section-based Ingestion Process ---
+2025-12-11 03:04:53,492 - INFO - Found 1 PDF file(s): ['Pakistan Penal Code New.pdf']
+2025-12-11 03:04:53,492 - INFO - Loading PDF: data\Pakistan Penal Code New.pdf
+2025-12-11 03:05:17,391 - INFO - Extracted 517 sections from data\Pakistan Penal Code New.pdf
+2025-12-11 03:05:17,393 - INFO - Total sections extracted: 517
+2025-12-11 03:05:17,393 - INFO - === Sample Sections ===
+2025-12-11 03:05:17,394 - INFO - 
+Section 1:
+2025-12-11 03:05:17,395 - INFO - Metadata: {'section_number': 186, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 03:05:17,395 - INFO - Content (first 200 chars): Section 186
+0) 
+Act XLV of 1860 
+October 6th, 1860 
+ 
+Amended by: Protection of Women (Criminal Laws Amendment) Act, 2006,Criminal Laws 
+(Amendment) Act, 2004 (I of 2005),Criminal Law (Amendment) Ordi...
+2025-12-11 03:05:17,396 - INFO - 
+Section 2:
+2025-12-11 03:05:17,396 - INFO - Metadata: {'section_number': 1, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 03:05:17,397 - INFO - Content (first 200 chars): Section 1
+Title and extent of operation of the Code. 
+This Act shall be called the Pakistan Penal Code, and shall take effect throughout Pakistan....
+2025-12-11 03:05:17,399 - INFO - 
+Section 3:
+2025-12-11 03:05:17,400 - INFO - Metadata: {'section_number': 2, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 03:05:17,403 - INFO - Content (first 200 chars): Section 2
+Punishment of offences committed within Pakistan. 
+Every person shall be liable to punishment under this Code and not otherwise for every act or 
+omission contrary to the provisions thereof,...
+2025-12-11 03:05:17,406 - INFO - Loading embedding model: ./nomic-embed...
+2025-12-11 03:05:19,124 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 03:05:19,124 - INFO - Load pretrained SentenceTransformer: ./nomic-embed
+2025-12-11 03:05:25,822 - WARNING - <All keys matched successfully>
+2025-12-11 03:05:26,927 - INFO - Creating FAISS index at 'ppc_vector_db_final' with 517 sections...
+2025-12-11 03:06:28,984 - ERROR - Failed to create/save vector store: CUDA out of memory. Tried to allocate 1.70 GiB. GPU 0 has a total capacity of 4.00 GiB of which 0 bytes is free. Of the allocated memory 7.32 GiB is allocated by PyTorch, and 3.01 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2025-12-11 03:07:41,382 - INFO - --- Starting PPC Section-based Ingestion Process ---
+2025-12-11 03:07:41,384 - INFO - Found 1 PDF file(s): ['Pakistan Penal Code New.pdf']
+2025-12-11 03:07:41,384 - INFO - Loading PDF: data\Pakistan Penal Code New.pdf
+2025-12-11 03:07:58,708 - INFO - Extracted 517 sections from data\Pakistan Penal Code New.pdf
+2025-12-11 03:07:58,709 - INFO - Total sections extracted: 517
+2025-12-11 03:07:58,709 - INFO - === Sample Sections ===
+2025-12-11 03:07:58,709 - INFO - 
+Section 1:
+2025-12-11 03:07:58,710 - INFO - Metadata: {'section_number': 186, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 03:07:58,710 - INFO - Content (first 200 chars): Section 186
+0) 
+Act XLV of 1860 
+October 6th, 1860 
+ 
+Amended by: Protection of Women (Criminal Laws Amendment) Act, 2006,Criminal Laws 
+(Amendment) Act, 2004 (I of 2005),Criminal Law (Amendment) Ordi...
+2025-12-11 03:07:58,711 - INFO - 
+Section 2:
+2025-12-11 03:07:58,712 - INFO - Metadata: {'section_number': 1, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 03:07:58,712 - INFO - Content (first 200 chars): Section 1
+Title and extent of operation of the Code. 
+This Act shall be called the Pakistan Penal Code, and shall take effect throughout Pakistan....
+2025-12-11 03:07:58,713 - INFO - 
+Section 3:
+2025-12-11 03:07:58,714 - INFO - Metadata: {'section_number': 2, 'source': 'Pakistan Penal Code', 'type': 'section'}
+2025-12-11 03:07:58,719 - INFO - Content (first 200 chars): Section 2
+Punishment of offences committed within Pakistan. 
+Every person shall be liable to punishment under this Code and not otherwise for every act or 
+omission contrary to the provisions thereof,...
+2025-12-11 03:07:58,720 - INFO - Loading embedding model: ./nomic-embed...
+2025-12-11 03:07:58,732 - INFO - Load pretrained SentenceTransformer: ./nomic-embed
+2025-12-11 03:08:09,989 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /nomic-ai/nomic-bert-2048/resolve/main/configuration_hf_nomic_bert.py (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: c8901663-2313-4a4b-bd2f-4f5a419f74d0)')' thrown while requesting HEAD https://huggingface.co/nomic-ai/nomic-bert-2048/resolve/main/configuration_hf_nomic_bert.py
+2025-12-11 03:08:09,992 - WARNING - Retrying in 1s [Retry 1/5].
+2025-12-11 03:08:27,304 - WARNING - <All keys matched successfully>
+2025-12-11 03:08:27,467 - INFO - Creating FAISS index at 'ppc_vector_db_final' with 517 sections...
+2025-12-11 03:19:12,794 - INFO - Loading faiss with AVX2 support.
+2025-12-11 03:19:14,337 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-11 03:19:14,565 - INFO - Database path: ppc_vector_db_final
+2025-12-13 14:56:05,509 - INFO - --- Starting PPC Section-based Ingestion Process ---
+2025-12-13 14:56:05,511 - INFO - Found 1 PDF file(s): ['Pakistan Penal Code New.pdf']
+2025-12-13 14:56:05,512 - INFO - Loading PDF: data\Pakistan Penal Code New.pdf
+2025-12-13 14:56:21,677 - INFO - Extracted 591 sections from data\Pakistan Penal Code New.pdf
+2025-12-13 14:56:21,677 - INFO - Total sections extracted: 591
+2025-12-13 14:56:21,678 - INFO - === Sample Sections ===
+2025-12-13 14:56:21,678 - INFO - 
+Section 1:
+2025-12-13 14:56:21,679 - INFO - Metadata: {'section_number': 186, 'page': 0, 'source': 'Pakistan Penal Code', 'pdf': 'Pakistan Penal Code New.pdf'}
+2025-12-13 14:56:21,679 - INFO - Content (first 200 chars): Section 186
+0) 
+Act XLV of 1860 
+October 6th, 1860 
+ 
+Amended by: Protection of Women (Criminal Laws Amendment) Act, 2006,Criminal Laws 
+(Amendment) Act, 2004 (I of 2005),Criminal Law (Amendment) Ordi...
+2025-12-13 14:56:21,679 - INFO - 
+Section 2:
+2025-12-13 14:56:21,679 - INFO - Metadata: {'section_number': 1, 'page': 0, 'source': 'Pakistan Penal Code', 'pdf': 'Pakistan Penal Code New.pdf'}
+2025-12-13 14:56:21,680 - INFO - Content (first 200 chars): Section 1
+Title and extent of operation of the Code. 
+This Act shall be called the Pakistan Penal Code, and shall take effect throughout Pakistan....
+2025-12-13 14:56:21,680 - INFO - 
+Section 3:
+2025-12-13 14:56:21,680 - INFO - Metadata: {'section_number': 2, 'page': 0, 'source': 'Pakistan Penal Code', 'pdf': 'Pakistan Penal Code New.pdf'}
+2025-12-13 14:56:21,680 - INFO - Content (first 200 chars): Section 2
+Punishment of offences committed within Pakistan. 
+Every person shall be liable to punishment under this Code and not otherwise for every act or 
+omission contrary to the provisions thereof,...
+2025-12-13 14:56:21,681 - INFO - Loading embedding model: ./nomic-embed...
+2025-12-13 14:56:21,686 - INFO - Load pretrained SentenceTransformer: ./nomic-embed
+2025-12-13 14:56:26,788 - WARNING - <All keys matched successfully>
+2025-12-13 14:56:26,972 - INFO - Creating FAISS index at 'ppc_vector_db_ref' with 591 sections...
+2025-12-13 14:58:27,138 - INFO - Loading faiss with AVX2 support.
+2025-12-13 14:58:27,752 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-13 14:58:27,833 - INFO - Database path: ppc_vector_db_ref
+2025-12-13 15:06:09,949 - INFO - --- Starting PPC Section-based Ingestion Process ---
+2025-12-13 15:06:09,951 - INFO - Found 1 PDF file(s): ['Pakistan Penal Code New.pdf']
+2025-12-13 15:06:09,953 - INFO - Loading PDF: data\Pakistan Penal Code New.pdf
+2025-12-13 15:06:39,590 - INFO - Extracted 591 sections from data\Pakistan Penal Code New.pdf
+2025-12-13 15:06:39,591 - INFO - Total sections extracted: 591
+2025-12-13 15:06:39,591 - INFO - === Sample Sections ===
+2025-12-13 15:06:39,592 - INFO - 
+Section 1:
+2025-12-13 15:06:39,592 - INFO - Metadata: {'section_number': 186, 'page': 0, 'source': 'Pakistan Penal Code.pdf', 'pdf': 'Pakistan Penal Code New.pdf'}
+2025-12-13 15:06:39,592 - INFO - Content (first 200 chars): Section 186
+0) 
+Act XLV of 1860 
+October 6th, 1860 
+ 
+Amended by: Protection of Women (Criminal Laws Amendment) Act, 2006,Criminal Laws 
+(Amendment) Act, 2004 (I of 2005),Criminal Law (Amendment) Ordi...
+2025-12-13 15:06:39,593 - INFO - 
+Section 2:
+2025-12-13 15:06:39,593 - INFO - Metadata: {'section_number': 1, 'page': 0, 'source': 'Pakistan Penal Code.pdf', 'pdf': 'Pakistan Penal Code New.pdf'}
+2025-12-13 15:06:39,594 - INFO - Content (first 200 chars): Section 1
+Title and extent of operation of the Code. 
+This Act shall be called the Pakistan Penal Code, and shall take effect throughout Pakistan....
+2025-12-13 15:06:39,594 - INFO - 
+Section 3:
+2025-12-13 15:06:39,595 - INFO - Metadata: {'section_number': 2, 'page': 0, 'source': 'Pakistan Penal Code.pdf', 'pdf': 'Pakistan Penal Code New.pdf'}
+2025-12-13 15:06:39,596 - INFO - Content (first 200 chars): Section 2
+Punishment of offences committed within Pakistan. 
+Every person shall be liable to punishment under this Code and not otherwise for every act or 
+omission contrary to the provisions thereof,...
+2025-12-13 15:06:39,596 - INFO - Loading embedding model: ./nomic-embed...
+2025-12-13 15:06:39,603 - INFO - Load pretrained SentenceTransformer: ./nomic-embed
+2025-12-13 15:06:45,741 - WARNING - <All keys matched successfully>
+2025-12-13 15:06:45,926 - INFO - Creating FAISS index at 'ppc_vector_db_ref' with 591 sections...
+2025-12-13 15:08:59,588 - INFO - Loading faiss with AVX2 support.
+2025-12-13 15:08:59,784 - INFO - Successfully loaded faiss with AVX2 support.
+2025-12-13 15:08:59,896 - INFO - Database path: ppc_vector_db_ref

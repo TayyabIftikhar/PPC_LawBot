@@ -1,7 +1,3 @@
-# Log files
-logs/
-*.log
-
 # Python environment
 .venv/
 __pycache__/
