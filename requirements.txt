@@ -12,5 +12,4 @@ einops
 mcp[cli]
 torch
 langchain_huggingface
-nest_asyncio
 langchain_ollama

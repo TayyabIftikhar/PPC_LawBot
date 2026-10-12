@@ -2,7 +2,6 @@ import os
 import re
 import logging
 import asyncio
-import nest_asyncio
 import streamlit as st
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
@@ -13,8 +12,6 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_huggingface import HuggingFacePipeline
 from langchain_ollama import OllamaEmbeddings, OllamaLLM
-
-nest_asyncio.apply()
 
 # --- Configuration ---
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY", "")
@@ -413,13 +410,7 @@ if user_input:
                 )
 
             else:
-                try:
-                    loop = asyncio.get_event_loop()
-                    full_response = loop.run_until_complete(
-                        query_perplexity_mcp(user_input)
-                    )
-                except RuntimeError:
-                    full_response = asyncio.run(query_perplexity_mcp(user_input))
+                full_response = asyncio.run(query_perplexity_mcp(user_input))
 
         response_placeholder.markdown(full_response)
 
