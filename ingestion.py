@@ -3,15 +3,15 @@ import re
 import logging
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.documents import Document
-from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
+from langchain_ollama import OllamaEmbeddings
 
 # --- Configuration ---
-DATA_DIR = 'data'
-DB_PATH = 'ppc_vector_db_ref'
-MODEL_NAME = "./nomic-embed"
-MODEL_REVISION = ""
-LOG_DIR = "logs"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+DB_PATH = os.path.join(BASE_DIR, "ppc_vector_db_ref")
+MODEL_NAME = "nomic-embed-text:latest"
+LOG_DIR = os.path.join(BASE_DIR, "logs")
 DEFAULT_SOURCE = "Pakistan Penal Code.pdf"
 os.makedirs(LOG_DIR, exist_ok=True)
 LOG_FILE = os.path.join(LOG_DIR, "lawgpt_ingest.log")
@@ -119,14 +119,7 @@ def main():
     # Initialize embeddings
     logger.info(f"Loading embedding model: {MODEL_NAME}...")
     try:
-        embeddings = HuggingFaceEmbeddings(
-            model_name=MODEL_NAME,
-            model_kwargs={
-                "trust_remote_code": True,
-                "revision": MODEL_REVISION,
-                "device": "cpu"
-            }
-        )
+        embeddings = OllamaEmbeddings(model=MODEL_NAME)
     except Exception as e:
         logger.error(f"Failed to load embedding model: {e}")
         return

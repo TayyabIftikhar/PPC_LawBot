@@ -6,11 +6,8 @@ import streamlit as st
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
-from langchain_huggingface import HuggingFacePipeline
 from langchain_ollama import OllamaEmbeddings, OllamaLLM
 
 # --- Configuration ---
@@ -21,9 +18,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "ppc_vector_db_ref")
 # LOCAL_MODEL_PATH = os.path.join(BASE_DIR, "local_deepseek_model")
 # EMBEDDING_MODEL = "./nomic-embed"
-LOCAL_MODEL_PATH = "deepseek-r1:1.5b-qwen-distill-q8_0"
+LOCAL_MODEL_PATH = "deepseek-r1:1.5b"
 EMBEDDING_MODEL = "nomic-embed-text:latest"
-EMBEDDING_REVISION = ""
 MAX_HISTORY = 4
 
 # --- Logging Setup ---
@@ -55,7 +51,6 @@ class LocalLawEngine:
     def load_resources(self):
         if self.llm:
             return True
-
         logger.info("Loading local resources...")
         try:
             # embeddings = HuggingFaceEmbeddings(
@@ -81,25 +76,6 @@ class LocalLawEngine:
                 search_type="similarity", search_kwargs={"k": 3}
             )
 
-            # if not os.path.exists(LOCAL_MODEL_PATH):
-            #     msg = f"Model not found at {LOCAL_MODEL_PATH}"
-            #     logger.error(msg)
-            #     st.error(msg)
-            #     return False
-
-            # self.llm = HuggingFacePipeline.from_model_id(
-            #     model_id=LOCAL_MODEL_PATH,
-            #     task="text-generation",
-            #     model_kwargs={"trust_remote_code": True, "torch_dtype": "auto"},
-            #     pipeline_kwargs={
-            #         "max_new_tokens": 2048,
-            #         "temperature": 0.2,
-            #         "do_sample": True,
-            #         "return_full_text": False,
-            #         "top_p": 0.9,
-            #     },
-            #     device_map="auto",
-            # )
             self.llm = OllamaLLM(
                 model=LOCAL_MODEL_PATH,
                 temperature=0.2,
@@ -149,14 +125,7 @@ class LocalLawEngine:
         """
         prompt = ChatPromptTemplate.from_template(template)
 
-        self.rag_chain = (
-            RunnablePassthrough.assign(
-                context=lambda inp: self._get_context(inp["question"]),
-            )
-            | prompt
-            | self.llm
-            | StrOutputParser()
-        )
+        self.rag_chain = prompt | self.llm | StrOutputParser()
 
     def _get_context(self, query):
         logger.info(f"Retrieving local context for: {query}")
@@ -245,18 +214,21 @@ class LocalLawEngine:
     def query(self, question, history_str):
         if not self.load_resources():
             return "System Error: Resources failed to load."
-        
+
+        context = self._get_context(question)
         docs = st.session_state.get("last_context", [])
-    
-        # If no documents retrieved, ask user to clarify
         if not docs:
             return (
                 "I could not find relevant information in the Pakistan Penal Code database. "
                 "Please provide more details about your question so I can give you a precise answer."
             )
-        
+
         logger.info(f"Running Local RAG for: {question}")
-        raw = self.rag_chain.invoke({"question": question, "chat_history": history_str})
+        raw = self.rag_chain.invoke({
+            "question": question,
+            "chat_history": history_str,
+            "context": context,
+        })
         
         # raw = """
         # 1. The Offense: Qatl-i-Khata (Accidental Killing)

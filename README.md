@@ -29,15 +29,15 @@ Ensure Python is installed. Using a virtual environment is recommended.
 pip install -r requirements.txt
 ```
 
-### 2. Download the Model For using HuggingFacePipeline
+### 2. Download the Hugging Face Model
 
-This downloads the DeepSeek model into the local_deepseek_model directory and Embedding model in nomic-embed directory.
+On the first `streamlit run app.py`, LawBot checks for the local DeepSeek model and
+downloads it into `local_deepseek_model/` if it is missing. This requires an
+internet connection and several gigabytes of free disk space. You can also run
+the download script manually:
 
 ```bash
 python local_deepseek_model.py
-```
-```bash
-huggingface-cli download nomic-ai/nomic-embed-text-v1 --local-dir ./nomic-embed
 ```
 
 ### 3. Ingest Documents

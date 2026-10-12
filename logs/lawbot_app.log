@@ -1,0 +1,45 @@
+2026-10-12 23:56:14,434 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): tell me about the murder 
+2026-10-12 23:56:14,442 - LawBotApp - INFO - Loading local resources...
+2026-10-12 23:56:14,557 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-10-12 23:56:14,559 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-10-12 23:56:14,560 - faiss.loader - INFO - Loading faiss.
+2026-10-12 23:56:16,321 - faiss.loader - INFO - Successfully loaded faiss.
+2026-10-12 23:56:16,477 - LawBotApp - INFO - Local resources loaded successfully.
+2026-10-13 00:05:03,111 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): which articles tell anout the murfer
+2026-10-13 00:05:03,119 - LawBotApp - INFO - Loading local resources...
+2026-10-13 00:05:03,310 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-10-13 00:05:03,312 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-10-13 00:05:03,313 - faiss.loader - INFO - Loading faiss.
+2026-10-13 00:05:03,441 - faiss.loader - INFO - Successfully loaded faiss.
+2026-10-13 00:05:03,530 - LawBotApp - INFO - Local resources loaded successfully.
+2026-10-13 00:05:03,531 - LawBotApp - INFO - Retrieving local context for: which articles tell anout the murfer
+2026-10-13 00:05:09,939 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-10-13 00:05:09,946 - LawBotApp - INFO - Running Local RAG for: which articles tell anout the murfer
+2026-10-13 00:05:09,996 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-10-13 00:07:27,678 - LawBotApp - INFO - Chat cleared by user.
+2026-10-13 00:15:57,899 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): murder article
+2026-10-13 00:15:57,907 - LawBotApp - INFO - Loading local resources...
+2026-10-13 00:15:58,018 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-10-13 00:15:58,019 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-10-13 00:15:58,020 - faiss.loader - INFO - Loading faiss.
+2026-10-13 00:15:58,103 - faiss.loader - INFO - Successfully loaded faiss.
+2026-10-13 00:15:58,226 - LawBotApp - INFO - Local resources loaded successfully.
+2026-10-13 00:15:58,227 - LawBotApp - INFO - Retrieving local context for: murder article
+2026-10-13 00:16:00,249 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-10-13 00:16:00,253 - LawBotApp - INFO - Running Local RAG for: murder article
+2026-10-13 00:16:17,929 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-10-13 00:32:41,209 - LawBotApp - INFO - Local Hugging Face model is missing; starting model download.
+2026-10-13 00:38:38,065 - LawBotApp - INFO - User Query (📚 Local Database (PPC)): divorce 
+2026-10-13 00:38:38,071 - LawBotApp - INFO - Loading local resources...
+2026-10-13 00:38:38,156 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-10-13 00:38:38,157 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-10-13 00:38:38,158 - faiss.loader - INFO - Loading faiss.
+2026-10-13 00:38:38,449 - faiss.loader - INFO - Successfully loaded faiss.
+2026-10-13 00:38:38,698 - LawBotApp - INFO - Local resources loaded successfully.
+2026-10-13 00:38:38,699 - LawBotApp - INFO - Retrieving local context for: divorce 
+2026-10-13 00:38:41,294 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-10-13 00:38:41,300 - LawBotApp - INFO - Running Local RAG for: divorce 
